@@ -1,9 +1,9 @@
 import React from 'react';
 import { Segment } from 'semantic-ui-react';
 
-const Result = () => (
+const Result = ({ text }) => (
   <Segment>
-    <p>yo</p>
+    <p>{text}</p>
   </Segment>
 );
 
