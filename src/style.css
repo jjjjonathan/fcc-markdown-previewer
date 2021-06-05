@@ -1,4 +1,9 @@
-* {
+body {
+  background: rgb(240, 240, 240);
+}
+
+.md-input,
+.system-header {
   font-family: monospace !important;
 }
 

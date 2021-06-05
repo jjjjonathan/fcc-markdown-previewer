@@ -9,6 +9,7 @@ const TextEntry = ({ text, setText }) => (
       onChange={({ target }) => setText(target.value)}
       id="editor"
       rows={8}
+      className="md-input"
     />
   </Form>
 );
